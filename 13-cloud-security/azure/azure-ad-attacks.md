@@ -564,6 +564,7 @@ Roles that appear limited but enable escalation to full admin in Azure environme
 - [Azure Persistence](azure-persistence.md)
 - [Azure Enumeration](azure-enumeration.md) -- Post-auth enumeration of users, groups, roles, and applications
 - [Azure Defenses & Bypass](azure-defenses-bypass.md) -- CA bypass, PIM evasion, MFA bypass, and logging evasion
+- [Entra ID Token Security](entra-id-token-security.md) -- JWT anatomy, refresh token abuse, FOCI pivoting, PRT deep-dive, revocation timing assessment
 - [Azure Data Mining](azure-data-mining.md) -- Data extraction after identity compromise
 - ../12-active-directory-deep-dive/azure-ad-integration.md
 - **Credential Guard Bypass** (../../07-credential-access/credential-guard-bypass.md) -- DumpGuard extracts NTLM hashes that may be synced via Entra Connect

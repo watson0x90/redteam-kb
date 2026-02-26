@@ -162,6 +162,12 @@
 | **GraphRunner** | Fast Graph API querying from PowerShell for Azure AD exploration | Azure AD enumeration via Microsoft Graph API | Windows (PowerShell) | *Bishop Fox 2025 Red Team Tools Compendium* |
 | **Azucar** | PowerShell-based Azure environment security auditor; enumerates storage accounts, VMs, web apps, SQL, Key Vaults, RBAC, and network configurations | Azure security posture assessment and resource enumeration | Windows (PowerShell) | https://github.com/nccgroup/azucar |
 | **CursedChrome** | Real-time browser session hijacking for post-exploitation | Browser session hijacking and credential theft | Cross-platform | *Bishop Fox 2025 Red Team Tools Compendium* |
+| **TokenSmith** | Generates Entra ID access/refresh tokens with Intune Company Portal compliance bypass via FOCI | Compliant device CA bypass, FOCI token exchange for Azure red teams | Cross-platform (Python) | https://github.com/JumpsecLabs/TokenSmith |
+| **TokenFlare** | Serverless AiTM phishing framework on Cloudflare Workers; captures ESTSAUTH cookies in under 60 seconds | Entra ID session token theft via serverless AiTM phishing | Cross-platform (JavaScript) | https://github.com/JumpsecLabs/TokenFlare |
+| **EntraTokenAid** | Pure PowerShell module for Entra ID OAuth; Auth Code + Device Code flows with CAE-capable tokens and auto JWT decode | Entra ID token acquisition, CAE token testing, feeding tokens to post-exploitation tools | Cross-platform (PowerShell) | https://github.com/zh54321/EntraTokenAid |
+| **TokenTacticsV2** | PowerShell module for Azure/Entra token manipulation; FOCI pivoting, CAE tokens, device code flows, resource switching | Token refresh, FOCI abuse, CAE testing, multi-resource token surfing | Cross-platform (PowerShell) | https://github.com/f-bader/TokenTacticsV2 |
+| **MFASweep** | Tests which Microsoft services enforce MFA vs. single-factor authentication | Identifying MFA enforcement gaps across M365/Azure services | Windows (PowerShell) | https://github.com/dafthack/MFASweep |
+| **Maester** | Pester-based security test suite for Entra ID configuration review | Automated Entra ID security posture assessment against best practices | Cross-platform (PowerShell) | https://github.com/maester365/maester |
 
 ---
 

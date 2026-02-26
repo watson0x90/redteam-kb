@@ -166,11 +166,11 @@ This document provides a master cross-reference table mapping MITRE ATT&CK tacti
 | Credential Access | T1555.003 | Credentials from Password Stores: Web Browsers | [Browser Credential Theft](browser_cred_theft.md) | Medium |
 | Credential Access | T1557.001 | Adversary-in-the-Middle: LLMNR/NBT-NS Poisoning | [LLMNR Poisoning](llmnr_poisoning.md) | High |
 | Credential Access | T1556.005 | Modify Authentication Process: Reversible Encryption | [DPAPI Abuse](dpapi_abuse.md) | Medium |
-| Credential Access | T1528 | Steal Application Access Token | [Cloud Credential Access](07-credential-access/cloud-credential-access.md), [M365 Initial Access](02-initial-access/office365-initial-access.md) | Medium |
+| Credential Access | T1528 | Steal Application Access Token | [Cloud Credential Access](07-credential-access/cloud-credential-access.md), [M365 Initial Access](02-initial-access/office365-initial-access.md), [Entra ID Token Security](13-cloud-security/azure/entra-id-token-security.md) | Medium |
 | Credential Access | T1003.008 | OS Credential Dumping: /etc/passwd and /etc/shadow | [Linux Credential Access](07-credential-access/linux-credential-access.md) | Medium |
 | Credential Access | T1552.001 | Unsecured Credentials: Credentials In Files | [Linux Credential Access](07-credential-access/linux-credential-access.md) | Low |
 | Credential Access | T1555.001 | Credentials from Password Stores: Keychain | [macOS Credential Access](07-credential-access/macos-credential-access.md) | Medium |
-| Credential Access | T1539 | Steal Web Session Cookie | [macOS Credential Access](07-credential-access/macos-credential-access.md) | Medium |
+| Credential Access | T1539 | Steal Web Session Cookie | [macOS Credential Access](07-credential-access/macos-credential-access.md), [Entra ID Token Security](13-cloud-security/azure/entra-id-token-security.md) | Medium |
 
 ---
 
@@ -204,7 +204,7 @@ This document provides a master cross-reference table mapping MITRE ATT&CK tacti
 | Lateral Movement | T1550.003 | Use Alternate Authentication: Pass the Ticket | [Pass the Ticket](pass_the_ticket.md) | Medium |
 | Lateral Movement | T1047 | Windows Management Instrumentation | [WMI Lateral Movement](wmi_lateral_movement.md) | Medium |
 | Lateral Movement | T1570 | Lateral Tool Transfer | [Tool Staging](tool_staging.md) | High |
-| Lateral Movement | T1550.001 | Use Alternate Authentication: Application Access Token | [Azure AD Attacks](13-cloud-security/azure/azure-ad-attacks.md) | Medium |
+| Lateral Movement | T1550.001 | Use Alternate Authentication: Application Access Token | [Azure AD Attacks](13-cloud-security/azure/azure-ad-attacks.md), [Entra ID Token Security](13-cloud-security/azure/entra-id-token-security.md) | Medium |
 | Lateral Movement | T1572 | Protocol Tunneling | [Network Pivoting](09-lateral-movement/network-pivoting.md) | Medium |
 | Lateral Movement | T1210 | Exploitation of Remote Services | [Database Exploitation](09-lateral-movement/database-exploitation.md) | High |
 

@@ -466,6 +466,7 @@ az storage account show --name targetstore --query "networkRuleSet"
 - [Azure Privilege Escalation](azure-privilege-escalation.md) -- PIM bypass for privilege escalation
 - [Azure Data Mining](azure-data-mining.md) -- Data extraction after defense bypass
 - [Azure Persistence](azure-persistence.md) -- Maintaining access through defense layers
+- [Entra ID Token Security](entra-id-token-security.md) -- Token-level mechanics of CA/CAE/Token Protection bypasses, revocation timing
 - [Cloud Lateral Movement](../../09-lateral-movement/cloud-lateral.md) -- Network security bypass for lateral movement
 - [AV/EDR Evasion](../../06-defense-evasion/av-edr-evasion.md) -- Endpoint defense evasion parallels
 - [ETW Evasion](../../06-defense-evasion/etw-evasion.md) -- On-premises monitoring evasion context
